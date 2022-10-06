@@ -1,3 +1,5 @@
+# Python program for inserting a node in linked list
+
 class Node:
 
 	def __init__(self, data):
