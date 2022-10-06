@@ -1,3 +1,4 @@
+# Python program for deleting a node in linked list
 class Node:
 
 	def __init__(self, data):
