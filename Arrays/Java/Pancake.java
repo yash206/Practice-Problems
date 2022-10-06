@@ -1,8 +1,15 @@
+/* Given an array of integers arr, sort the array by performing a series of pancake flips.
 
+In one pancake flip we do the following steps:
+
+Choose an integer k where 1 <= k <= arr.length.
+Reverse the sub-array arr[0...k-1] (0-indexed).
+*/
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class Pancake {
 
