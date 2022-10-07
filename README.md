@@ -23,6 +23,13 @@ You can also update the repository according to this structure: [Arrays](https:/
 - [About Hactoberfest](https://speckle.systems/blog/hacktoberfest-2022/#:~:text=Hacktoberfest%20is%20DigitalOcean's%20annual%20event,than%20keep%20the%20project%20alive.)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 
+## Maintainer
+<p align="center">
+<table>
+  <tbody><tr>
+     <td align="center"><a href="https://github.com/bhumikatewary"><img alt="" src="https://avatars.githubusercontent.com/bhumikatewary" width="100px;"><br><sub><b> Bhumika Tewary </b></sub></a><br></td> </a></td>
+</tbody></table>
+
 
 ## Contributors
 
