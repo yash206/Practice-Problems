@@ -1,3 +1,18 @@
+
+// Que. Given two numbers a and b.
+// Find GCD and LCM for those two numbers.
+
+
+// Test case 1 
+//  a=7 b=6
+// GCD:1 LCM:42
+
+// Test case 2
+//  a=20 b=30
+// GCD:10 LCM:60
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
