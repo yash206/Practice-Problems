@@ -1,5 +1,4 @@
 // C++ Program for Iterative Tower of Hanoi using stack
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -150,3 +149,13 @@ int main()
     tohIterative(num_of_disks, src, aux, dest);
     return 0;
 }
+/*
+Output:
+Move the disk 1 from S to D
+Move the disk 2 from S to A
+Move the disk 1 from D to A
+Move the disk 3 from S to D
+Move the disk 1 from A to S
+Move the disk 2 from A to D
+Move the disk 1 from S to D
+*/

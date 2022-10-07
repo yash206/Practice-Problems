@@ -107,3 +107,6 @@ int main()
     cout << maxWater(arr, N);
     return 0;
 }
+
+// Output:
+// 6

@@ -79,3 +79,8 @@ int main()
     id == -1 ? cout << "No celebrity" : cout << "Celebrity ID " << id;
     return 0;
 }
+
+/*
+Output:
+Celebrity ID 2
+*/

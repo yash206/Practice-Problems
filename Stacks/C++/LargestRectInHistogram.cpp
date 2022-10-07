@@ -57,3 +57,8 @@ int main()
     cout << largestRectangleArea(heights) << endl;
     return 0;
 }
+
+/*
+Output:
+10
+*/

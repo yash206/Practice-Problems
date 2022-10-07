@@ -43,3 +43,8 @@ int main()
     cout << removeDuplicateLetters(str);
     return 0;
 }
+
+/*
+Output:
+abdckifjs
+*/

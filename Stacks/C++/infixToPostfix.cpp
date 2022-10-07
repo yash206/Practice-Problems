@@ -83,3 +83,8 @@ int main()
     infixToPostfix(exp);
     return 0;
 }
+
+/*
+Output:
+abcd^e-fgh*+^*+i-
+*/
