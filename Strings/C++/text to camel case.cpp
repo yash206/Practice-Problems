@@ -1,3 +1,11 @@
+//Write  a problem to convert a normal user inputted sentence to an output formatted in camelCase.
+//Examples of Camel Case:
+//"how are you" will become "howAreYou"
+//INPUT: "Love live! the school idol movie"
+//OUTPUT: "loveLive!TheSchoolIdolMovie"
+
+
+
 #include <iostream>
 #include <string>
 
