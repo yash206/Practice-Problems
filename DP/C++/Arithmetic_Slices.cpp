@@ -1,3 +1,28 @@
+/*
+Question:- 
+An integer array is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
+Write a program to return the number of arithmetic subarrays of a given integer array.
+
+Input:-
+- First line takes input n the size of array 
+- next n inputs of the array are taken
+
+Output:-
+- returns an integer value of number of arithmetic slices in the given integer array
+
+Example:-
+Input:
+5
+1 2 3 4 5
+
+Output:
+Number of Arithmetic Slices = 6
+
+*/
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
