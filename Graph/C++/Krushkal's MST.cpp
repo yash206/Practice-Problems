@@ -42,3 +42,20 @@ int32_t main() {
   cout << ans << '\n';
   return 0;
 }
+
+/*
+Problem Statement : Sum of the weight of subset of the edges of a connected, undirected, edge-weighted graph that 
+                    connects all the vertices to each other of minimum total weight, where no cycles are allowed.
+Input :
+  N=5, M=6
+Edges:
+  Source Dest. Weight
+    1     2     3
+    2     3     5
+    2     4     2
+    3     4     8
+    5     1     7
+    5     4     4
+    
+Output :14
+*/
