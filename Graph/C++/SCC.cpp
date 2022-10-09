@@ -61,3 +61,23 @@ int main() {
   cout << ans << '\n';
   return 0;
 }
+
+
+/* 
+Input: 
+N = 5, M = 5, 
+Edges:
+1 2
+3 2
+1 3
+3 4
+4 5
+Output:  2 
+Explanation: 
+Adding 2 directed edges to join the following pair of vertices makes the graph strongly connected: 
+
+{2, 1}
+{5, 2}
+Hence, the minimum number of edges required is 2.
+*/
+
