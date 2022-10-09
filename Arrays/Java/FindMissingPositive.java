@@ -1,3 +1,15 @@
+// Problem link: https://leetcode.com/problems/first-missing-positive/
+
+// Problem Statement: 
+// Given an unsorted integer array nums, return the smallest missing positive integer. You must implement an algorithm that runs in O(n) time and uses constant extra space.
+
+// INPUT: 
+// 5
+// 0 1 2 3 8 9
+
+// OUTPUT:
+// 4
+
 import java.util.Scanner;
 
 public class FindMissingPositive {
