@@ -15,10 +15,10 @@ void bfs(int src) {
 	while(!q.empty()) {
 		int vertex = q.front();
 		q.pop();
+		cout << vertex << endl;
 		for(auto &child: g[vertex]) {
 			if(vis[child]) continue;
 			q.push(child);
-			cout << child << endl;
 			vis[child] = true;
 			level[child] = level[vertex] + 1;
 		}
@@ -34,3 +34,21 @@ int main() {
 	}
 	bfs(1);
 }
+
+// Traversing the graph using Breadth First Search Algorithm
+
+/*
+
+Input:
+3 4
+1 2
+1 3
+3 2
+1 3
+
+Output:
+1
+2
+3
+
+*/
