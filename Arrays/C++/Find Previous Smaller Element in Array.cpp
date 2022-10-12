@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Privious Smaller Element
+// Find Previous Smaller Element of each element in the given Array.
+
 vector<int> PSE(vector<int> &v) {
 	int n = v.size();
     vector<int> pse(n, -1);
@@ -28,3 +29,18 @@ int main() {
 		cout << v[i] << " " << pse[i] << endl;
 	}
 }
+
+/*
+
+Input:
+5
+3 1 8 0 5
+
+Output:
+3 -1
+1 -1
+8 1
+0 -1
+5 3
+
+*/
