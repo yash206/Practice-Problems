@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Previous Greater Element
+// Find Previous Greater Element of each element in the given Array.
+
 vector<int> PGE(vector<int> &v) {
 	int n = v.size();
     vector<int> pge(n, -1);
@@ -28,3 +29,18 @@ int main() {
 		cout << v[i] << " " << pge[i] << endl;
 	}
 }
+
+/*
+
+Input:
+5
+3 1 8 0 5
+
+Output:
+3 -1
+1 0
+8 -1
+0 2
+5 2
+
+*/
