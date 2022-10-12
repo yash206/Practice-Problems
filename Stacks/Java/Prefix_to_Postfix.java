@@ -1,3 +1,5 @@
+// JavaProgram to convert prefix to postfix
+
 import java.util.Stack;
 
 public class Prefix_to_Postfix {
@@ -65,5 +67,7 @@ public class Prefix_to_Postfix {
 }
 
 
-
+//Output :  Postfix : ABC/-AK/L-*
+// Time Complexity: O(N), as we are using a loop for traversing the expression
+// Auxiliary Space: O(N), as we are using stack for extra space
 
