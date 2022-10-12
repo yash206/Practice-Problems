@@ -1,4 +1,4 @@
-//allocate minimum number of pages problem - Given number of pages in n different books and m students. The books are arranged in ascending order of number of pages. Every student is assigned to read some consecutive books.
+//allocate minimum number of pages problem - Given number of pages in n different books and m students. Every student is assigned to read some consecutive books.
 // The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum.
 //For Ex - n=5 (Length of array), m = 2(no.of students), arr[] = [10, 20, 5, 15, 5]
 //Possible allocations - 10 and (20,5,15,5)  -> Max - 45
