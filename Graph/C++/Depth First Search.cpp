@@ -27,3 +27,21 @@ int main() {
 	}
 	dfs(1);
 }
+
+// Traversing the graph using Depth First Search Algorithm
+
+/*
+
+Input:
+3 4
+1 2
+1 3
+3 2
+1 3
+
+Output:
+1
+2
+3
+
+*/
