@@ -1,16 +1,27 @@
+/*
+    Statement : Boolean Satisfiability or simply SAT is the problem of determining if a Boolean formula is satisfiable or unsatisfiable.
+                Satisfiable : If the Boolean variables can be assigned values such that the formula turns out to be TRUE, then we say that the formula is satisfiable.
+                Unsatisfiable : If it is not possible to assign such values, then we say that the formula is unsatisfiable.
+    Input :
+            5 5
+            1 3 2
+            3 2 1
+            1 4 2
+            4 5 2
+            5 4 6
+    Output :
+            5
+            1 2 3 4 5
+*/ 
+
+
+// Code:
+
 #include<bits/stdc++.h>
 using namespace std;
 
 const int N = 3e5 + 9;
 
-/*
-zero Indexed
-we have vars variables
-F=(x_0 XXX y_0) and (x_1 XXX y_1) and ... (x_{vars-1} XXX y_{vars-1})
-here {x_i,y_i} are variables
-and XXX belongs to {OR,XOR}
-is there any assignment of variables such that F=true
-*/
 struct twosat {
   int n;  // total size combining +, -. must be even.
   vector< vector<int> > g, gt;
