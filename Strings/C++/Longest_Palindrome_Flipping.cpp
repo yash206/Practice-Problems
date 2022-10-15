@@ -1,4 +1,7 @@
 // A C++ solution for longest palindrome
+
+// Problem Statement :- Given a string, find the longest substring which is a palindrome. 
+
 #include <bits/stdc++.h>
 using namespace std;
 
