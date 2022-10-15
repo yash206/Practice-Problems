@@ -1,4 +1,18 @@
-/* C++ program to input sparse matrix into efficient representation using structures and add two of them */
+/* C++ program to input sparse matrix into efficient representation using structures and add two of them 
+
+input:
+1 0 0 
+0 1 5
+0 0 0
+
+0 0 0 
+1 1 0 
+0 1 0 
+
+output:
+1 0 0
+1 2 5
+0 1 0 */
 
 #include<stdio.h>
 #include<stdlib.h>
