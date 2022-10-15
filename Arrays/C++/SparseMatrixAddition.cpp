@@ -1,3 +1,5 @@
+/* C++ program to input sparse matrix into efficient representation using structures and add two of them */
+
 #include<stdio.h>
 #include<stdlib.h>
 
