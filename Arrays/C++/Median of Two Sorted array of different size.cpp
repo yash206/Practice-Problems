@@ -47,3 +47,13 @@ int main() {
     
     return 0;
 }
+
+
+/*
+Probkem Statement: Given two sorted arrays, a[] and b[], the task is to find the median of these sorted arrays, where N is the number of elements in the first array, and M is the number of elements in the second array. 
+
+Example:
+arr1 = [ -5, 3, 6, 12, 15]
+arr2 = [ -12, -10, -6, -3, 4, 10]
+Output: Median = 3
+*/
