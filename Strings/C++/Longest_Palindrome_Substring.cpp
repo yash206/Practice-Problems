@@ -1,6 +1,16 @@
-// A C++ solution for longest palindrome
+// A C++ solution for longest palindrome substring.
 
 // Problem Statement :- Given a string, find the longest substring which is a palindrome. 
+
+/* Input: Given string :”forgeeksskeegfor”, 
+   Output: “geeksskeeg”
+
+   Input: Given string :”Geeks”, 
+   Output: “ee”
+   
+*/
+
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -56,7 +66,9 @@ int longestPalSubstr(string str)
 // Driver Code
 int main()
 {
-    string str = "forgeeksskeegfor";
+    string str = "forgeeksskeegfor"; // Sample Input
     cout << longestPalSubstr(str);
+    // Output :- Longest palindrome substring is: geeksskeeg and length is: 10 
+
     return 0;
 }
