@@ -2,11 +2,12 @@
 
 // Problem Statement :- Given a string, find the longest substring which is a palindrome. 
 
-/* Input: Given string :”forgeeksskeegfor”, 
-   Output: “geeksskeeg”
+/*
+   Input: Given string :”forgeeksskeegfor”, 
+   Output: Longest palindrome substring is: geeksskeeg and length is: 10 
 
    Input: Given string :”Geeks”, 
-   Output: “ee”
+   Output: Longest palindrome substring is: ee and length is: 2
    
 */
 
