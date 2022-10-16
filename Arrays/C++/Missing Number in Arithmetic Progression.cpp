@@ -39,3 +39,11 @@ int main()
 	cout << missingElement(arr, n);
 	return 0;
 }
+
+/*
+Problem Statement: Given an array arr of n elements that represents an Arithmetic Progression having one missing element in the order, find that missing element.
+
+Example: 
+arr = [2, 8, 6, 10]
+Output: 4
+*/
