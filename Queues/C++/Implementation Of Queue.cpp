@@ -1,3 +1,5 @@
+/* Problem statement- We are told to show the creation of queue, insertion, deletion, display of output etc with the help of a code */
+
 #include<iostream> //Decleration of preprocessor directive
 using namespace std;
 struct queue{    //creation of structure for a queue
@@ -101,4 +103,74 @@ cout<<"Enter 0 to exit"<<endl<<"Enter 1 to enqueue elements"<<endl<<"Enter 2 to 
 cin>>b;}
 return 0;
 }
+/* Enter the size of queue:
+4
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+1
+Enter the value you want to insert
+5
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+1
+Enter the value you want to insert
+6
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+1
+Enter the value you want to insert
+6
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+1
+Enter the value you want to insert
+4
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+1
+Enter the value you want to insert
+5
+Queue is Empty
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+2
+Deleted element is: 5
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+2
+Deleted element is: 6
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+3
+Queue is Empty
+Enter 0 to exit
+Enter 1 to enqueue elements
+Enter 2 to dequeue elements
+Enter 3 to check whether queue is full or empty
+Enter 4 to display queue elements
+/*
 
