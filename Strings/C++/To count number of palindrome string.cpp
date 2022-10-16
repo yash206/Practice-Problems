@@ -1,3 +1,13 @@
+// Write a CPP Program to count palindrome string from the string inputted.
+
+// Input
+// Enter a string: radar level singh abhay
+
+// Output
+// Number of Palindrome string is 2.
+
+
+
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -34,3 +44,4 @@ int main(){
     cout<<"Number of Palindrome string is "<<count;
     return 0;
 }
+
