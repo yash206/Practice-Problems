@@ -1,3 +1,11 @@
+/* Problem Statement
+
+Given a string s, return the longest palindromic substring in s.
+
+A string is called a palindrome string if the reverse of that string is the same as the original string.
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -26,16 +34,23 @@ string longestPalindrome(string s1) {
     cout << "Longest palindrome substring is: ";
     printSubStr(str, start, start + maxLength - 1);
     cout << " and length is ";
-    // return length of LPS
     return maxLength;
 }
 
-// Driver Code
 int main()
 {
-    string str = "forgeeksskeegfor"; // Sample Input
+    string str;
+    cin >> str;
     cout << longestPalindrome(str);
-    // Output :- Longest palindrome substring is: geeksskeeg
 
     return 0;
 }
+
+/* Output
+
+Input: s = "babad"
+Output: "bab"
+
+Input: s = "cbbd"
+Output: "bb"
+*/
